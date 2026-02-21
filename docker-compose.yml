@@ -1,0 +1,10 @@
+services:
+  nodejs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nodejs
+    environment:
+      - APP_NAME=default nodejs application server
+    ports:
+      - 80:80

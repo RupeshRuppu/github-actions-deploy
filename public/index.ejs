@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Nginx Web</title>
+	</head>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: "Courier New", Courier, monospace;
+		}
+		body {
+			padding: 2rem;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		h1,
+		h2 {
+			margin-bottom: 2rem;
+		}
+	</style>
+	<body>
+		<h1>Welcome to Nginx Web Server!</h1>
+		<h2>App: <%= appName %></h2>
+		<img
+			width="500px"
+			height="500px"
+			src="/images/nginx.jpg"
+			alt="nginx-logo"
+		/>
+	</body>
+</html>
