@@ -7,4 +7,4 @@ services:
     environment:
       - APP_NAME=default nodejs application server
     ports:
-      - 80:80
+      - 8080:8080
