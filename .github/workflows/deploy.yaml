@@ -16,7 +16,7 @@ jobs:
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.EC2_HOST_IP }}
-          username: ubuntu
+          username: root
           key: ${{ secrets.EC2_HOST_SSH_KEY }}
           script: |
             cd /home/ubuntu/github-actions-deploy
