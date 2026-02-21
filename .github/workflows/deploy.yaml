@@ -20,5 +20,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /home/ubuntu/github-actions-deploy
-            git pull
-            docker-compose up -d --build
+            docker-compose down
+            docker-compose up -d --build --force-recreate

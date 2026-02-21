@@ -5,6 +5,6 @@ services:
       dockerfile: Dockerfile
     container_name: nodejs
     environment:
-      - APP_NAME=default nodejs application server
+      - APP_NAME=NODEJS-UPDATE-v3
     ports:
       - 8080:8080
